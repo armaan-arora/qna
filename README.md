@@ -17,10 +17,10 @@
 </p>
 
 <p align="center">
-  <a href="https://jacobj215-llm-qna-chat-bot-app-yzhsmu.streamlit.app/">🌐 Live Demo</a> •
   <a href="#-installation">📦 Installation</a> •
   <a href="#-how-it-works">⚙️ How It Works</a> •
-  <a href="#-usage">🚀 Usage</a>
+  <a href="#-usage">🚀 Usage</a> •
+  <a href="#-features">✨ Features</a>
 </p>
 
 ---
@@ -66,7 +66,7 @@ Extracting specific information from documents is a tedious and time-consuming p
 | 🔐 **Bring Your Own Key** | Use your own OpenAI API key for full control |
 | ⚡ **Fast Processing** | Documents processed in 1-2 minutes |
 | 🎯 **Accurate Answers** | Semantic search finds contextually relevant information |
-| 🌐 **No Installation** | Use the live demo instantly |
+| 🏠 **Run Locally** | Keep your data private on your own machine |
 
 ---
 
@@ -111,7 +111,7 @@ Extracting specific information from documents is a tedious and time-consuming p
 | ⚡ **FAISS Vector Search** | Lightning-fast similarity search |
 | 🤖 **GPT-3.5-Turbo** | Powered by OpenAI's capable language model |
 | 🔐 **BYOK (Bring Your Own Key)** | Use your personal OpenAI API key |
-| 🌐 **Live Demo** | Try instantly without local setup |
+| 🏠 **Local Deployment** | Run on your own machine for privacy |
 | 📱 **Responsive UI** | Clean Streamlit interface |
 
 ---
@@ -151,14 +151,12 @@ Extracting specific information from documents is a tedious and time-consuming p
 
 ## 📦 Installation
 
-###  Run Locally 💻
-
-#### Prerequisites
+### Prerequisites
 
 - Python 3.9+
 - OpenAI API Key ([Get one here](https://platform.openai.com/api-keys))
 
-#### Steps
+### Steps
 
 ```bash
 # 1. Clone the repository
@@ -192,6 +190,8 @@ The app will open in your browser at `http://localhost:8501`
   <img src="screenshots/api_auth1.png" alt="API Key Step 1" width="400"/>
   <img src="screenshots/api_auth2.png" alt="API Key Step 2" width="400"/>
 </p>
+
+Since the application uses OpenAI's `gpt-3.5-turbo`, you'll need to provide your API key.
 
 #### 2️⃣ Upload Your Document
 
@@ -294,7 +294,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [HuggingFace](https://huggingface.co/) — Free embeddings with all-MiniLM-L6-v2
 - [FAISS](https://faiss.ai/) — Efficient similarity search
 - [Streamlit](https://streamlit.io/) — Web app framework
-- Original inspiration: [JacobJ215/LLM-QnA-CHAT-BOT](https://github.com/JacobJ215/LLM-QnA-CHAT-BOT)
 
 ---
 
@@ -303,7 +302,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Armaan Arora**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/armaan-arora)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/armaan-arora)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/armaan-singh-29bb54247/)
 
 ---
 
@@ -312,5 +311,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 </p>
 
 <p align="center">
-  Made with ❤️ and 🤖 by Armaan Arora
+  Made with ❤️ by Armaan Arora
 </p>
